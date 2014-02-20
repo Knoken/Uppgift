@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="css/style.css">
+
+<script>
+function rubrik(text){
+var temptext=text.toUpperCase()
+var size=1
+for (i=0;i<temptext.length;i++){
+document.write(temptext.charAt(i).fontsize(size).bold())
+if (size<7)
+size++
+else
+size=1
+}
+}
+</script>
+
+</head>
+
+
+<body>
+
+<br>
+<div id="wrap">
+
+<div class="box">
+<script>
+rubrik("Framtidsplaner...")
+</script>
+</div>
+
+<br>
+<ul>
+	<a href="index.html">STARTSIDA</a>
+	<a href="framtidsplaner.html">FRAMTIDSPLANER</a>
+	<a href="intresse.html">INTRESSE</a>
+</ul>
+
+<p class="content">
+<br>
+Mina framtidsplaner just nu &auml;r att f&ouml;rst och fr&auml;mst bli klar med utbildningen. N&auml;sta steg &auml;r att flytta n&auml;rmare G&ouml;teborg (min hemstad) och f&ouml;rhoppningsvis hitta ett jobb. K&ouml;pa bil och hus &auml;r n&aring;got som jag ocks&aring; hoppas kommer ing&aring; i mina framtidsplaner snart.</p>
+<br>
+<img src="img/hus.jpg" width="265" height="190"></div>
+</body>
+</html>

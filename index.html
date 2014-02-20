@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="css/style.css">
+
+<script>
+function rubrik(text){
+var temptext=text.toUpperCase()
+var size=1
+for (i=0;i<temptext.length;i++){
+document.write(temptext.charAt(i).fontsize(size).bold())
+if (size<7)
+size++
+else
+size=1
+}
+}
+</script>
+
+</head>
+
+
+<body>
+
+<br>
+<div id="wrap">
+
+<div class="box">
+<script>
+rubrik("Välkommen!")
+</script>
+</div>
+
+<br>
+<ul>
+	<a href="index.html">STARTSIDA</a>
+	<a href="framtidsplaner.html">FRAMTIDSPLANER</a>
+	<a href="intresse.html">INTRESSE</a>
+</ul>
+
+<p class="content">
+<br>
+Det h&auml;r &auml;r min l&ouml;sning p&aring; Laboration 2, Responsivitet. Jag har med hj&auml;lp av Media-Queries och CSS gjort ett exempel p&aring; en responsiv hemsida. F&ouml;r att g&ouml;ra detta exempel anv&auml;nde jag mig av &quot;egna&quot; koder men tog ocks&aring; hj&auml;lp av koden fr&aring;n exemplet &quot;Media-Queries&quot;. Jag modfierade koden fr&aring;n exemplet efter hur jag tyckte att sidan skulle se ut.</p>
+<br>
+
+<img src="img/computer.jpg">
+
+<p class="content"><br>
+  I och med att detta  &auml;r en &ouml;vning som handlar om att bygga responsiva webbsidor och inget f&auml;rdigt projekt som ska l&auml;mnas in s&aring; k&auml;ndes sj&auml;lva designen inte s&aring; viktig utan funktionen var den som var viktigast. Trots det ville jag att sidan skulle se stilren ut och ge n&aring;gon slags k&auml;nsla av struktur, &auml;ven om den &auml;r v&auml;ldigt simpel.</p>
+
+</div>
+
+</body>
+</html>
